@@ -4,9 +4,138 @@
     <title>HTML Assessment</title>
   </head>
   <body>
-    <h1>TEXT</h1>
+    <div>
+      <h1>TEXT</h1>
+      <p><span><strong>Lorem</strong></span> ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit, eros sit amet euismod tincidunt, nisl leo vestibulum dui, sed tincidunt lacus ligula eu sapien. Proin at diam tincidunt, tincidunt ex at, venenatix nisl.</p>
+      <p><blockquote><em><span><strong>"Integer</strong></span> auctor est ac fringilla euismod. Donec laoreet urna vel diam blandit venenatis. Nam fermentum turpis a mauris condimentum, vitae faucibus leo commodo."</em></blockquote></p>
+      <p><span><strong>Vestibulum</strong></span> elit nisi, posuere ut hendrerit a, molestie eu leo. Donec fermentum dapibus eget sed ex. Vivamus auctor in velit ac suscipit. In hac habitasse platea dictumst.</p>
+    </div>
 
-    <h1>TABLE</h1>
-
+    <div>
+      <h1>TABLE</h1>
+        <table>
+          <tbody>
+            <tr>
+              <th></th>
+              <th colspan="5">Scores by Quarter</th>
+            </tr>
+            <tr>
+              <th></th>
+              <th scope="col" rowspan="2"><strong>Team Name</strong></th>
+              <th scope="col" colspan="2"><strong>First Half</strong></th>
+              <th scope="col" colspan="2"><strong>Second Half</strong></th>
+              <th scope="col" rowspan="2"><strong>Final</strong></th>
+            </tr>
+            <tr>
+              <th></th>
+              <td><strong>Q1</strong></td>
+              <td><strong>Q2</strong></td>
+              <td><strong>Q3</strong></td>
+              <td><strong>Q4</strong></td>
+            </tr>
+            <tr>
+              <th></th>
+              <td><a href="https://www.denverbroncos.com/">Denver</a></td>
+              <td>7</td>
+              <td>3</td>
+              <td>0</td>
+              <td>7</td>
+              <td>17</td>
+            </tr>
+            <tr>
+              <th></th>
+              <td><a href="https://www.chicagobears.com/">Chicago</a></td>
+              <td>3</td>
+              <td>3</td>
+              <td>0</td>
+              <td>7</td>
+              <td>13</td>
+            </tr>
+          </tbody>
+        </table>
+    </div>
+    <div>
+      <h1>LIST</h1>
+      <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Denver_Broncos_logo.svg/1920px-Denver_Broncos_logo.svg.png" alt="Broncos logo" width="296" height="174">
+      <h3><strong>Denver Broncos</strong></h3>
+      <ul>
+        <li><strong>QB</strong></li>
+          <ol>
+            <li>Teddy Bridgewater</li>
+            <li>Drew Lock</li>
+          </ol>
+        <li><strong>RB</strong></li>
+          <ol>
+            <li>Melvin Gordon III</li>
+            <li>Javonte Williams</li>
+          </ol>
+        <li><strong>WR</strong></li>
+          <ol>
+            <li>Courtland</li>
+            <li>Jerry Jeudy</li>
+            <li>Tim Patrick</li>
+          </ol>
+      </ul>
+    </div>
+    <br>
+    <br>
+    <div>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Chicago_Bears_logo.svg/1920px-Chicago_Bears_logo.svg.png" alt="Bears logo" width="193" height="129">
+      <h3><strong>Chicago Bears</strong></h3>
+      <ul>
+        <li><strong>QB</strong></li>
+          <ol>
+            <li>Andy Dalton</li>
+            <li>Justing Fields</li>
+            <li>Nick Foles</li>
+          </ol>
+        <li><strong>RB</strong></li>
+          <ol>
+            <li>Tarik Cohen</li>
+            <li>Khalil Herbert</li>
+            <li>David Montgomery</li>
+          </ol>
+        <li><strong>WR</strong></li>
+          <ol>
+            <li>Rodney Adams</li>
+            <li>Damiere Byrd</li>
+            <li>Isaiah Coulter</li>
+          </ol>
+      </ul>
+    </div>
+    <br>
+    <br>
+    <div>
+      <h1><strong>FORM</strong></h1>
+        <form action="index.html">
+          <label for="First Name">First Name:</label>
+            <input type="text" name="First Name">
+          <label for="Last Name">Last Name:</label>
+            <input type="text" name="Last Name">
+          <br>
+          <label for="Favorite Sport">Favorite Sport:</label>
+            <select class="Favorite Sport" name="">
+              <option value=""></option>
+              <option value="Football">Football</option>
+              <option value="Soccer">Soccer</option>
+              <option value="Basketball">Basketball</option>
+              <option value="Baseball">Baseball</option>
+            </select>
+          <br>
+          <label for="Have you">Have you ever... </label>
+            <label for="Attended">Attended</label><input type="radio" name="Attended">
+            <label for="Played">Played</label><input type="radio" name="Played">
+            <label for="Coached">Coached</label><input type="radio" name="Coached">
+            <label for="Bet On">Bet On</label><input type="radio" name="Bet On">
+            <label for="Have you">...this sport?</label>
+          <br>
+          <label for="Prefered league">Do you prefer... </label>
+            <label for="Amateur">Amateur</label><input type="radio" name="Amateur">
+            <label for="College">College</label><input type="radio" name="College">
+            <label for="Professional">Professional</label><input type="radio" name="Professional">
+          <br>
+          <input type="submit" name="submit" value="Submit">
+        </form>
+    </div>
   </body>
 </html>
